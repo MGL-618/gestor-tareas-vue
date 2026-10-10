@@ -1,38 +1,73 @@
-# gestor-tareas-vue
+# Gestor de tareas para estudiantes
 
-This template should help get you started developing with Vue 3 in Vite.
+Aplicación web desarrollada con Vue 3 y Vite para organizar las actividades académicas de un estudiante.
 
-## Recommended IDE Setup
+## Funcionalidades
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Crear, editar y eliminar tareas.
+- Marcar tareas como pendientes o completadas.
+- Filtrar tareas por su estado.
+- Organizar actividades por materia, prioridad y fecha de entrega.
+- Consultar estadísticas de las tareas.
+- Conservar los datos en el navegador mediante localStorage.
+- Interfaz adaptable a diferentes tamaños de pantalla.
 
-## Recommended Browser Setup
+## Tecnologías
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+- Vue 3
+- JavaScript
+- Vite
+- HTML y CSS
+- localStorage
 
-## Customize configuration
+## Requisitos
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- Git.
+- Node.js compatible con la versión indicada en `package.json`.
+- npm, incluido con Node.js.
 
-## Project Setup
+## Instalación
 
-```sh
+Clona el repositorio:
+
+```bash
+git clone https://github.com/MGL-618/gestor-tareas-vue.git
+```
+
+Entra en la carpeta del proyecto:
+
+```bash
+cd gestor-tareas-vue
+```
+
+Instala las dependencias:
+
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+Inicia el servidor de desarrollo:
 
-```sh
+```bash
 npm run dev
 ```
 
-### Compile and Minify for Production
+Abre en el navegador la dirección local que muestre la terminal, normalmente `http://localhost:5173/`.
 
-```sh
+## Compilación para producción
+
+Para generar la versión de producción:
+
+```bash
 npm run build
 ```
+
+Los archivos generados se guardan en la carpeta `dist/`.
+
+## Almacenamiento de datos
+
+Las tareas se guardan en el almacenamiento local del navegador. Por lo tanto, los datos no se sincronizan automáticamente entre diferentes navegadores o computadoras.
+
+## Autoría
+
+Proyecto académico de Programación Web, desarrollado como práctica de Vue 3.
