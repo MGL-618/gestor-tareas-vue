@@ -71,3 +71,7 @@ Las tareas se guardan en el almacenamiento local del navegador. Por lo tanto, lo
 ## Autoría
 
 Proyecto académico de Programación Web, desarrollado como práctica de Vue 3.
+
+## Guía de instalación para Windows 11
+
+Si es la primera vez que ejecutas el proyecto, consulta la [guía detallada de instalación y ejecución en Windows 11](./GUIA-INSTALACION-WINDOWS.md). Incluye la comprobación de Git, Node.js y npm, la instalación de las herramientas necesarias, la descarga del proyecto, su ejecución y la solución de errores frecuentes.
